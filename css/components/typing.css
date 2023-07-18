@@ -1,0 +1,51 @@
+.typing-bar {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  width: 100%;
+  align-items: center;
+}
+
+.typing-bar__plus {
+  font-size: 30px;
+  color: rgb(138, 138, 138);
+  padding: 10px 15px;
+}
+
+.typing-bar__typing {
+  margin-right: 20px;
+  width: 90%;
+  display: flex;
+}
+
+.typing-bar__typing input {
+  width: 100%;
+  height: 40px;
+  border-radius: 30px;
+  border: 1.7px solid rgb(224, 224, 224);
+  padding-left: 10px;
+  padding-right: 80px;
+  font-size: 20px;
+}
+
+.typing__btn {
+  display: flex;
+  align-items: center;
+  margin-left: -73px;
+}
+
+.tying__emo {
+  font-size: 25px;
+  padding-right: 10px;
+  color: rgb(138, 138, 138);
+}
+
+.tying__send {
+  font-size: 28px;
+  border-radius: 50%;
+  border: 1.5px solid rgb(224, 224, 224);
+  background-color: var(--yellow);
+  cursor: pointer;
+}

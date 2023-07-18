@@ -1,0 +1,25 @@
+.user-component__alert {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.user-component__alert__time {
+  display: block;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.5);
+  padding-bottom: 5px;
+}
+
+.user-component__alert__number {
+  background-color: tomato;
+  display: block;
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+}

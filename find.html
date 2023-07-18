@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to kokoatalk</title>
+  </head>
+
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fa-solid fa-battery-full"></i>
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+
+    <nav class="nav">
+      <ul class="nav__ul">
+        <li class="nav__ul__btn">
+          <a class="nav__ul__btn__link" href="friends.html"
+            ><i class="fa-regular fa-user fa-2xl"></i
+          ></a>
+        </li>
+
+        <li class="nav__ul__btn">
+          <a class="nav__ul__btn__link" href="chat.html"
+            ><i class="fa-sharp fa-regular fa-comment fa-2xl"></i
+          ></a>
+        </li>
+        <li class="nav__ul__btn">
+          <a class="nav__ul__btn__link" href="find.html"
+            ><i class="fa-solid fa-magnifying-glass-plus fa-2xl"></i
+          ></a>
+        </li>
+        <li class="nav__ul__btn">
+          <a class="nav__ul__btn__link" href="more.html"
+            ><span class="nav__ul__btn__link__notifi"> </span
+            ><i class="fa-solid fa-ellipsis fa-2xl"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+
+    <header class="friends-header">
+      <h1 class="friends-header__title">Find</h1>
+      <div class="friends-header__icons">
+        <span class="friends-header__icons__icon"
+          ><i class="fa-solid fa-magnifying-glass fa-xl"></i
+        ></span>
+        <span class="friends-header__icons__icon"
+          ><a href="setting.html"><i class="fa-solid fa-gear fa-xl"></i></a
+        ></span>
+      </div>
+    </header>
+
+    <main class="find--main">
+      <div class="find__icons">
+        <div class="find-icons__icon">
+          <div>
+            <i class="fa-solid fa-expand fa-2xl"></i>
+          </div>
+          <span>QR Code</span>
+        </div>
+        <div class="find-icons__icon">
+          <div>
+            <i class="fa-regular fa-address-book fa-2xl"></i>
+          </div>
+          <span>Add by <br />Contacts</span>
+        </div>
+        <div class="find-icons__icon">
+          <div>
+            <i class="fa-solid fa-fingerprint fa-2xl"></i>
+          </div>
+          <span>Add by ID</span>
+        </div>
+        <div class="find-icons__icon">
+          <div>
+            <i class="fa-regular fa-envelope fa-2xl"></i>
+          </div>
+          <span>Invite</span>
+        </div>
+      </div>
+
+      <div class="find--recomanded">
+        <h6 class="find--recomanded__title">Recommended Friends</h6>
+        <div class="find--recomanded__content">
+          <span>You have no recommended friends.</span>
+        </div>
+      </div>
+      <div class="find--open-chat">
+        <div class="find--open-chat__title">
+          <span>Open Chat</span>
+          <div>
+            <span>Go to Openchat Home</span
+            ><i class="fa-solid fa-chevron-right"></i>
+          </div>
+        </div>
+        <div class="find--open-chat__content">
+          <div class="find--open-chat__content__post">
+            <div class="find--open-chat__content__post__tag">
+              <span id="open-chat_title">#ROGUE</span>
+              <span id="open-chat_tag">#ROGUE#pvp#HELLIDE</span>
+              <div id="open-chat_member">
+                <img src="img/ingae.png" />
+                <span id="open-chat__member__numner">802 members</span>
+                <div class="divider"></div>
+                <span id="open-chat__member__active">Active</span>
+              </div>
+            </div>
+            <div class="find--open-chat__content__post__photo">
+              <img src="img/advzreaer.jpg" />
+              <div class="like">
+                <div class="like_number">
+                  <i class="fa-solid fa-heart"></i>
+                  <span>215 likes</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="find--open-chat__content__post"></div>
+        </div>
+      </div>
+      <div id="mobile--screen">
+        <spna>가로 비율을 줄여 주세요</spna>
+      </div>
+    </main>
+    <script
+      src="https://kit.fontawesome.com/9fa7a08d01.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

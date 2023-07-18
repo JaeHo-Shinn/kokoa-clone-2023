@@ -1,0 +1,36 @@
+.friends-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.friends-header__title {
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.friends-header__icons__icon {
+  margin-left: 25px;
+  position: relative;
+  height: 30px;
+}
+
+.fa-plus {
+  padding: 5px 0px;
+  margin-left: -7px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.header__icons__notice {
+  margin: none;
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  background-color: tomato;
+  color: tomato;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+}

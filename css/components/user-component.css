@@ -1,0 +1,70 @@
+.friends--main {
+  padding-top: 20px;
+}
+
+.user-component {
+  display: flex;
+  margin-bottom: 15px;
+  justify-content: space-between;
+}
+
+.user-component__photo {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 35%;
+  margin-right: 15px;
+}
+
+.user-component__name__subtitle {
+  margin-top: 5px;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  margin-top: 10px;
+}
+
+.user-component__name__subtitle i {
+  padding: 0px 7px;
+  color: rgb(255, 35, 35);
+}
+
+.user-component,
+.user-component__column {
+  display: flex;
+  align-items: center;
+}
+
+.user-component__photo--l {
+  width: 65px;
+  height: 65px;
+}
+
+.user-component__text {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.user-component__channel__text {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: 600;
+}
+
+.friends--main__channel {
+  border-top: 1.6px solid rgba(0, 0, 0, 0.1);
+}
+
+.friends--main__channel-header {
+  margin: 20px 0px;
+}
+
+.friends--main__channel-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.friends--main__channel-header {
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 400;
+}

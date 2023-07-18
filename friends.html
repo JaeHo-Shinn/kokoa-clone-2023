@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to kokoatalk</title>
+  </head>
+
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fa-solid fa-battery-full"></i>
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+
+    <nav class="nav">
+      <ul class="nav__ul">
+        <li class="nav__ul__btn">
+          <a class="nav__ul__btn__link" href="friends.html"
+            ><i class="fa-solid fa-user fa-2xl"></i
+          ></a>
+        </li>
+        <li class="nav__ul__btn nav__ul__btn__chat">
+          <a class="nav__ul__btn__link" href="chat.html"
+            ><span class="nav__ul__btn__link__noti">1</span
+            ><i
+              class="fa-sharp fa-regular fa-comment fa-2xl nav__ul__btn__link__bnt"
+            ></i
+          ></a>
+        </li>
+        <li class="nav__ul__btn">
+          <a class="nav__ul__btn__link" href="find.html"
+            ><i class="fa-solid fa-magnifying-glass fa-2xl"></i
+          ></a>
+        </li>
+        <li class="nav__ul__btn">
+          <a class="nav__ul__btn__link" href="more.html"
+            ><span class="nav__ul__btn__link__notifi"> </span
+            ><i class="fa-solid fa-ellipsis fa-2xl"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+
+    <header class="friends-header">
+      <h1 class="friends-header__title">Friends</h1>
+      <div class="friends-header__icons">
+        <span class="friends-header__icons__icon"
+          ><i class="fa-solid fa-magnifying-glass fa-xl"></i
+        ></span>
+        <!-- comment
+        <span class="comment">
+          <span class="chat--header__comment">+</span>
+          <i class="fa-regular fa-comment fa-xl"></i
+        ></span>-->
+        <span class="friends-header__icons__icon"
+          ><i class="fa-solid fa-music fa-xl"></i
+        ></span>
+        <span class="friends-header__icons__icon"
+          ><a href="setting.html"><i class="fa-solid fa-gear fa-xl"></i></a
+        ></span>
+      </div>
+    </header>
+    <div id="friends-display-link">
+      <a href="#"
+        ><i class="fa-solid fa-circle-info"></i>Friends' Names Display<i
+          class="fa-solid fa-chevron-right"
+        ></i
+      ></a>
+    </div>
+    <main class="friends--main">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            class="user-component__photo user-component__photo--xl"
+            src="img/화면 캡처 2023-07-11 112440.png"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__name">Lilith</h4>
+            <!--<h6 class="user-component__name__subtitle">
+              chat__메세지미리보기  more__전화번호</h6>-->
+          </div>
+        </div>
+        <!-- 
+        <div class="user-component__alert">
+          <span>chat__메세지시간  more__상세정보이모티콘</span>
+          <span>chat__메세지개수</span>
+        </div>
+         -->
+      </div>
+      <div class="friends--main__channel">
+        <div class="friends--main__channel-header">
+          <span>Channel</span><i class="fa-solid fa-chevron-up"></i>
+        </div>
+        <div class="user-component user-component__channel">
+          <div class="user-component__column">
+            <img
+              class="user-component__photo user-component__photo--l"
+              src="img/channel.png"
+            />
+            <div class="user-component__text user-component__channel__text">
+              <h4 class="user-component__name">Channel</h4>
+              <!--<h6 class="user-component__name__subtitle">상태메세지</h6>-->
+            </div>
+          </div>
+          <div class="user-component__column user-component__column__more">
+            <span>2</span><i class="fa-solid fa-chevron-right"></i>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div class="open--screen">
+      <i class="fa-solid fa-comment fa-2xl"></i>
+    </div>
+    <div id="mobile--screen">
+      <spna>가로 비율을 줄여 주세요</spna>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/9fa7a08d01.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

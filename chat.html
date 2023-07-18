@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to kokoatalk</title>
+  </head>
+
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fa-solid fa-battery-full"></i>
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+
+    <nav class="nav">
+      <ul class="nav__ul">
+        <li class="nav__ul__btn">
+          <a class="nav__ul__btn__link" href="friends.html"
+            ><i class="fa-regular fa-user fa-2xl"></i
+          ></a>
+        </li>
+
+        <li class="nav__ul__btn nav__ul__btn__chat">
+          <a class="nav__ul__btn__link" href="chat.html"
+            ><span class="nav__ul__btn__link__noti">1</span
+            ><i class="fa-solid fa-comment fa-2xl nav__ul__btn__link__bnt"></i
+          ></a>
+        </li>
+        <li class="nav__ul__btn">
+          <a class="nav__ul__btn__link" href="find.html"
+            ><i class="fa-solid fa-magnifying-glass fa-2xl"></i
+          ></a>
+        </li>
+        <li class="nav__ul__btn">
+          <a class="nav__ul__btn__link" href="more.html"
+            ><span class="nav__ul__btn__link__notifi"> </span
+            ><i class="fa-solid fa-ellipsis fa-2xl"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+
+    <header class="friends-header">
+      <h1 class="friends-header__title">Chats</h1>
+      <div class="friends-header__icons">
+        <span class="friends-header__icons__icon"
+          ><i class="fa-solid fa-magnifying-glass fa-xl"></i
+        ></span>
+        <span class="friends-header__icons__icon"
+          ><i class="fa-regular fa-comment fa-xl"></i
+          ><i class="fa-solid fa-plus fa-2xs"></i
+        ></span>
+        <span class="friends-header__icons__icon"
+          ><i class="fa-solid fa-music fa-xl"></i
+        ></span>
+        <span class="friends-header__icons__icon"
+          ><a href="setting.html"><i class="fa-solid fa-gear fa-xl"></i></a
+        ></span>
+      </div>
+    </header>
+
+    <main class="friends--main">
+      <a href="chat-room.html">
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              class="user-component__photo user-component__photo--xl"
+              src="img/화면 캡처 2023-07-11 112440.png"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__name">Lilith</h4>
+              <h6 class="user-component__name__subtitle">메세지미리보기</h6>
+            </div>
+          </div>
+          <div class="user-component__alert">
+            <span class="user-component__alert__time">21:22</span>
+            <span class="user-component__alert__number">1</span>
+          </div>
+        </div>
+      </a>
+      <div id="mobile--screen">
+        <spna>가로 비율을 줄여 주세요</spna>
+      </div>
+    </main>
+    <script
+      src="https://kit.fontawesome.com/9fa7a08d01.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

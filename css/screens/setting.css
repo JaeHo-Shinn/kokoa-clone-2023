@@ -1,0 +1,37 @@
+.setting-main {
+  margin: 10px;
+  padding-top: 60px;
+}
+
+.more_h-divider {
+  opacity: 0.4;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.setting__column {
+  display: flex;
+  align-items: center;
+  font-size: 23px;
+}
+
+.setting__column__left {
+  margin-right: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.setting__column__left span {
+  padding-right: 20px;
+}
+
+.setting__alert {
+  color: tomato;
+}
+
+.setting__column__right {
+  margin-left: auto;
+  display: flex;
+  justify-content: flex-end;
+  opacity: 0.6;
+}

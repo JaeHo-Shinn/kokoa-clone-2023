@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to kokoatalk</title>
+  </head>
+
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fa-solid fa-battery-full"></i>
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+
+    <nav class="nav">
+      <ul class="nav__ul">
+        <li class="nav__ul__btn">
+          <a class="nav__ul__btn__link" href="friends.html"
+            ><i class="fa-regular fa-user fa-2xl"></i
+          ></a>
+        </li>
+        <li class="nav__ul__btn">
+          <a class="nav__ul__btn__link" href="chat.html"
+            ><span class="nav__ul__btn__link__noti">1</span
+            ><i class="fa-sharp fa-regular fa-comment fa-2xl"></i
+          ></a>
+        </li>
+        <li class="nav__ul__btn">
+          <a class="nav__ul__btn__link" href="find.html"
+            ><i class="fa-solid fa-magnifying-glass fa-2xl"></i
+          ></a>
+        </li>
+        <li class="nav__ul__btn">
+          <a class="nav__ul__btn__link" href="more.html"
+            ><span class="nav__ul__btn__link__notifi"> </span
+            ><i class="fa-solid fa-circle"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+
+    <header class="friends-header">
+      <h1 class="friends-header__title">more</h1>
+      <div class="friends-header__icons">
+        <span class="friends-header__icons__icon"
+          ><i class="fa-solid fa-magnifying-glass fa-xl"></i
+        ></span>
+        <!-- comment
+        <span class="comment">
+          <span class="chat--header__comment">+</span>
+          <i class="fa-regular fa-comment fa-xl"></i
+        ></span>-->
+
+        <span class="friends-header__icons__icon"
+          ><i class="fa-solid fa-music fa-xl"></i
+        ></span>
+
+        <span class="friends-header__icons__icon"
+          ><a href="setting.html"><i class="fa-solid fa-gear fa-xl"></i></a>
+          <span class="header__icons__notice"> </span>
+        </span>
+      </div>
+    </header>
+
+    <main class="friends--main">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            class="user-component__photo user-component__photo--xl"
+            src="img/화면 캡처 2023-07-11 112440.png"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__name">Lilith</h4>
+            <div class="user-component__name__subtitle">
+              <h6 class="user-component__name__subtitle__phon">
+                +82 10 1234 5678
+              </h6>
+              <i class="fa-solid fa-circle-exclamation"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="user-component__alert">
+          <i class="fa-regular fa-file fa-2xl"></i>
+        </div>
+      </div>
+
+      <div class="find__icons more__icons">
+        <div class="find-icons__icon">
+          <i class="fa-regular fa-calendar fa-2xl"></i>
+          <span>Calendar</span>
+        </div>
+
+        <div class="find-icons__icon">
+          <i class="fa-regular fa-hard-drive fa-2xl"></i>
+          <span>Talk Drive</span>
+        </div>
+
+        <div class="find-icons__icon">
+          <i class="fa-regular fa-face-smile fa-2xl"></i>
+          <span>Emoticons</span>
+        </div>
+
+        <div class="find-icons__icon">
+          <i class="fa-regular fa-rectangle-list fa-2xl"></i>
+          <span>Themes</span>
+        </div>
+      </div>
+
+      <div class="find__icons more__icons">
+        <div class="find-icons__icon">
+          <i class="fa-regular fa-comments fa-2xl"></i>
+          <span>Open Chat</span>
+        </div>
+
+        <div class="find-icons__icon">
+          <i class="fa-solid fa-building-columns fa-2xl"></i>
+          <span>Account</span>
+        </div>
+
+        <div class="find-icons__icon not-yet">
+          <i class="fa-solid fa-fingerprint fa-2xl"></i>
+          <span>Add by ID</span>
+        </div>
+
+        <div class="find-icons__icon not-yet">
+          <i class="fa-regular fa-envelope fa-2xl"></i>
+          <span>Invite</span>
+        </div>
+      </div>
+
+      <div class="h-divider"></div>
+
+      <div class="more-suggestions">
+        <h6>Suggestions</h6>
+        <div class="more-suggestions__icons">
+          <div class="more-suggestions__icons__icon">
+            <div><i class="fa-solid fa-quote-left fa-2xl"></i></div>
+            <span>KaKao Story</span>
+          </div>
+          <div class="more-suggestions__icons__icon">
+            <div><i class="fa-solid fa-users fa-2xl"></i></div>
+            <span>KaKao Friends</span>
+          </div>
+          <div class="more-suggestions__icons__icon">
+            <div><i class="fa-solid fa-dragon fa-2xl"></i></div>
+            <span>Games</span>
+          </div>
+          <div class="more-suggestions__icons not-yet">
+            <div class="more-suggestions__icons__icon">
+              <div><i class="fa-solid fa-quote-left fa-2xl"></i></div>
+              <span>KaKao Story</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="mobile--screen">
+        <spna>가로 비율을 줄여 주세요</spna>
+      </div>
+    </main>
+    <script
+      src="https://kit.fontawesome.com/9fa7a08d01.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

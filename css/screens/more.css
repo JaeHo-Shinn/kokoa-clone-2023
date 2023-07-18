@@ -1,0 +1,34 @@
+.more-suggestions h6 {
+  font-weight: 503;
+  margin-bottom: 20px;
+}
+
+.more-suggestions__icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.more-suggestions__icons__icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.more-suggestions__icons__icon div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+  width: 60px;
+  border-radius: 10%;
+  background-color: var(--yellow);
+  color: white;
+  margin-bottom: 10px;
+}
+
+.more-suggestions__icons__icon span {
+  font-size: 14px;
+  color: rgba(59, 59, 59, 0.7);
+}

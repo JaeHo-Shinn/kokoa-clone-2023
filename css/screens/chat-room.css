@@ -1,0 +1,143 @@
+#chat-room {
+  background-color: #abc1d1;
+  height: 1100vh;
+}
+
+#chat-room .header__center {
+  margin-left: -20px;
+  padding: 0px 20px;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#chat-room .header__center,
+#chat-room .status-bar {
+  background-color: #abc1d1;
+}
+#chat-room .header__center {
+  z-index: 3;
+}
+
+#chat-room .status-bar {
+  z-index: 2;
+  padding-bottom: 50px;
+}
+
+.chat-room-main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 60px;
+}
+
+.chat-room__today__time {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7px 15px;
+  border-radius: 15px;
+  color: white;
+  background-color: rgba(143, 140, 140, 0.6);
+  margin-bottom: 20px;
+}
+
+.chat-room__img {
+  height: 60px;
+  width: 60px;
+  border-radius: 20px;
+}
+
+.chat-room-main__msg__you__photo {
+  height: 60px;
+  width: 60px;
+  border-radius: 35%;
+  object-fit: cover;
+}
+
+.chat-room__body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-room__msg {
+  display: flex;
+  justify-content: start;
+  margin-bottom: 25px;
+}
+
+.my__msg {
+  justify-content: end;
+}
+
+.chat-room__msg__info {
+  margin: 0px 15px;
+}
+
+.chat-room__msg__user-name {
+  font-weight: 530;
+  color: rgb(83, 83, 83);
+  margin-bottom: 10px;
+}
+
+.chat-roommsg__msg__chats {
+  display: flex;
+  align-items: end;
+}
+
+.my__chat {
+  flex-direction: row-reverse;
+}
+
+.chat-room__msg__msg__content {
+  font-size: 20px;
+  font-weight: 545;
+  background-color: white;
+  padding: 15px 20px;
+  border-radius: 20px;
+  border-top-left-radius: 0px;
+}
+
+.my__content {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 0px;
+  background-color: var(--yellow);
+}
+
+.chat-roommsg__msg__time {
+  font-weight: 530;
+  font-size: 12px;
+  color: rgb(83, 83, 83);
+  margin: 0px 15px;
+}
+
+.msg__mine {
+  justify-content: end;
+}
+
+.my__msg {
+  flex-direction: end;
+}
+
+@keyframes bordercolorreturn {
+  0% {
+    border-color: none;
+  }
+  50% {
+    border-color: rgb(150, 2, 2);
+  }
+  100% {
+    border-color: none;
+  }
+}
+
+.typing-bar__typing input:focus {
+  outline: none;
+  animation: bordercolorreturn 0.5s ease-in-out;
+}
+
+.typing-bar__typing input:focus::-webkit-input-placeholder {
+  color: transparent;
+}

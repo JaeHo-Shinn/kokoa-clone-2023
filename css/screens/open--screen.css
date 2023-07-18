@@ -1,0 +1,24 @@
+@keyframes loadingscreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+.open--screen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--yellow);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 70px;
+  animation: loadingscreen 0.2s ease-in-out forwards;
+  animation-delay: 1s;
+}

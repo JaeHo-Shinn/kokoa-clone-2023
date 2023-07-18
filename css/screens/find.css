@@ -1,0 +1,142 @@
+.find--main {
+  padding-top: 30px;
+}
+
+/*find--recomanded*/
+
+.find--recomanded {
+  border-top: 1.5px solid rgba(0, 0, 0, 0.2);
+  padding: 20px 0px;
+  opacity: 0.7;
+  font-weight: 510;
+}
+
+.find--recomanded__content {
+  font-size: 20px;
+  opacity: 0.6;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*find--open-chat*/
+.find--open-chat {
+  border-top: 1.5px solid rgba(0, 0, 0, 0.2);
+  font-weight: 510;
+  box-sizing: border-box;
+}
+
+.find--open-chat__title {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0px;
+}
+
+.find--open-chat__title div,
+.find--open-chat__title span {
+  opacity: 0.8;
+  font-weight: 501;
+}
+
+.find--open-chat__content__post {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 501;
+}
+
+.find--open-chat__content__post > div {
+  display: block;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.find--open-chat__content__post > div > div {
+  display: flex;
+  align-items: center;
+}
+
+.find--open-chat__content__post > div > div img {
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+#open-chat_title,
+#open-chat_tag,
+#open-chat_member {
+  margin: 2px;
+}
+
+#open-chat_tag,
+#open-chat_member {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+#open-chat__member__numner {
+  margin-left: 5px;
+}
+
+#open-chat__member__active {
+  color: rgb(194, 34, 6);
+}
+
+.divider {
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 1px;
+  height: 15px;
+  margin: 0px 5px;
+}
+
+.find--open-chat__content__post__photo img {
+  height: 120px;
+  width: 120px;
+  border-radius: 10%;
+  object-fit: cover;
+}
+
+.find--open-chat__content__post__photo {
+  position: relative;
+}
+
+.like {
+  display: flex;
+  color: white;
+  padding: 3px 5px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 25px;
+  font-size: 11px;
+  position: absolute;
+  bottom: 7px;
+  right: 7px;
+}
+
+.like__number {
+  font-weight: 500;
+  padding-left: 5px;
+}
+
+@keyframes likenumber {
+  0% {
+    color: none;
+    scale: none;
+  }
+  50% {
+    color: rgb(250, 22, 22);
+    scale: 1.1;
+  }
+  100% {
+    color: none;
+    scale: none;
+  }
+}
+
+.find--open-chat__content__post__photo:hover .like {
+  will-change: auto;
+  animation: likenumber 0.5s ease-in-out infinite;
+}
