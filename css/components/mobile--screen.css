@@ -1,11 +1,8 @@
 #mobile--screen {
 }
 
-@media screen and (max-width: 600px) {
-<<<<<<< HEAD
+@media screen and (max-width: 1000px) {
   #mobile--screen {
     display: none;
   }
-=======
->>>>>>> free-lanscape
 }
